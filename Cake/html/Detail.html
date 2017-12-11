@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/detail.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="head">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/front_logo.png" /></a>
+					<p>
+						<input type="text" placeholder="请输入关键字" id="search"/><button></button>
+					</p>
+					<ul id="message">
+						<!--<li>a</li>-->
+					</ul>
+					<div class="make">
+						<p><img src='../img/login.gif' id="login"/><img src='../img/reg.gif'id="reg"/></p>
+						<p><a href="buyCar.html">我的购物车（<em id="num">0</em>）</a></p>
+						<p><img src="../img/ico_phone.gif"/></p>
+					</div>
+				</div>
+				<ul>
+					<li><a href="../index.html">首页</a></li>
+					<li class="sub_onclick"><a href="AllCakes.html">产品中心</a>
+						<ol>
+							<li><a href="AllCakes.html">生日蛋糕</a></li>
+							<li><a href="#">券卡区</a></li>
+							<li><a href="#">其他</a></li>
+						</ol>
+					</li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">关于供美香</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">券卡区</a></li>
+					<li><a href="Login.html">用户中心</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="left">
+				<div class="car">
+					<h3>我的购物车</h3>
+					<h4>
+						<i>产品</i><strong>数量</strong><i>价格</i><em>操作</em>
+					</h4>
+					<div id = "myCar">
+						<!--<p>
+							<b>芭比公主</b><strong><input type="text" value="1"/></strong><i>￥258.00元</i><em>操作</em>
+						</p>
+						<p>
+							<b>芭比公主芭比公主</b><strong><input type="text" value="1"/></strong><i>￥258.00元</i><em>操作</em>
+						</p>-->
+					</div>
+					<h5>
+						<span>小计：￥<b>258.00</b>元</span>
+						<img src="../img/btn_check2.gif" />
+					</h5>
+				</div>
+				
+				<div class="type">
+					<h3>产品类别</h3>
+					<ul>
+						<li><img src="../img/ico_17_hover.jpg"  />
+							<ul>
+								<li>纯乳脂蛋糕</li>
+								<li>巧克力蛋糕</li>
+								<li>慕斯系列</li>
+								<li>卡通蛋糕</li>
+								<li>提拉米苏&乳酪</li>
+								<li>祝寿蛋糕</li>
+								<li>多层蛋糕</li>
+								<li>圣诞系列蛋糕</li>
+							</ul>
+						</li>
+						<li>
+							<img src="../img/ico_26.jpg"  />
+						</li>
+					</ul>
+				</div>
+				
+				<div class="history">
+					<h3>浏览历史</h3>
+					<ul>
+						<!--<li>
+							<img src="../img/small001.jpg"/>
+							<span>健康长寿双层蛋糕</span>
+						</li>
+						<li>
+							<img src="../img/small001.jpg"/>
+							<span>健康长寿双层蛋糕</span>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="top">
+					<div class="rleft">
+						<!--<div class="pic">
+							<img src="../img/pic001.jpg" class="picBig"/><p></p>
+						</div>-->
+						
+						<!--<ul>
+							<li><img src="../img/small001.jpg" class="picSmall"/></li>
+						</ul>-->
+						
+					</div>
+					<div class="big"></div>
+					<div class="rright" id="right">
+						<h3 id="names"></h3>
+						<p>预订时间：提前一天预定</p>
+						<p>存放条件：2-5℃冷藏保存24小时</p>
+						<p>PS：晚上18:00以后下单的亲们，为了保证顺利取蛋糕，下单后和客服联系下哦！</p>
+						<p>客服QQ：2325730750</p>
+						<p>亲！订购300元以上蛋糕，需全额付款订单才可生效!</p>
+						<p>商品库存： 999</p>
+						<ul id="size">
+							<!--<li>
+								<strong>选择</strong><span>规格</span><b>价格</b>
+							</li>
+							<li>
+								<strong><input type="radio" /></strong><span>10吋</span><b>498元</b>
+							</li>-->
+						</ul>
+						<em>商品总价：<b>￥218.0元</b></em>
+						<h4>
+							<img src="../img/shoucang2.gif" />
+							<p>
+								<img src="../img/good_jian.png" />
+								<input type="text" value="1" id="vals"/>
+								<img src="../img/good_plus.png" />
+							</p>
+						</h4>
+						<img src="../img/goumai2.gif" id="addCar"/>
+						<ol>分享到：
+							<li><img src="../img/weibo.gif" /></li>
+							<li><img src="../img/weixin.gif" /></li>
+							<li><img src="../img/qq_weibo.gif" /></li>
+							<li><img src="../img/qqzone.gif" /></li>
+							<li><img src="../img/renren.gif" /></li>
+						</ol>
+					</div>
+				</div>
+				<div class="cont">
+					<h3>
+						<a href="#" class="check">商品描述</a>
+						<a href="#">常见问答</a>
+						<a href="#">最新评论</a>
+					</h3>
+					<p><b>预订时间：</b>需提前1天</p>
+					<br />
+					<p><b>存放条件：</b>2-8℃冷藏保存24小时</p>
+					<br />
+					<p><b>下单填写须知：</b>亲们，下单时一定要填写姓名和联系电话！</p>
+					<p>1）需<em>配送</em>，请选【快递配送】</p>
+					<p>2）到<em>门店自取</em>，请选【到店自提】并填写提货门店和提货时间</p>
+					<p>这样方便我们提前为您准备哦！如有特殊要求（蛋糕上写祝福语/加糖人/立体图案等）或晚上18:00以后下单，请与QQ客服(2325730750)联系后再下单哦！以免给您造成不便，敬请谅解！</p>
+					<ul id="bigList">
+						<!--<li><img src="../img/big001.jpg"/></li>-->
+					</ul>
+					<img src="../img/detail1.jpg"/>
+					<img src="../img/detail2.jpg"/>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		<div class="footer">
+			<div class="foot">
+				<p>客服邮箱：2325730750@qq.com<a href="#">联系我们 | 订购帮助</a></p>
+				<p>COPYRIGHT 2012 苏ICP备06007537号-2 京公网安备11011202001547</p>
+			</div>
+		</div>
+		<div class="chat" id="chat">
+			<img src="../img/zxkf_title.gif" />
+			<img src="../img/zxkf_qq.gif" />
+		</div>
+	</body>
+</html>
+<script src="../js/pool.js"></script>
+<script src="../js/detail.js"></script>

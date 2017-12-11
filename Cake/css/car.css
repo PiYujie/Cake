@@ -1,0 +1,123 @@
+/*购物车页面*/
+body{
+	background-color:#fff5ea;
+}
+.buy_content{
+	min-height:300px;
+	width:980px;
+	margin:30px auto;
+}
+.buy_content img{
+	width:100%;
+}
+.buy_content p{
+	height:43px;width: 100%;
+}
+.cont{
+	border: 2px solid #EEE1D6;
+	width:976px;
+	margin-top:10px;
+	background: #fff;
+}
+.cont h3{
+	padding-left:20px;
+	height: 30px;width:956px;
+	margin:0;
+	background: #EEE1D6;
+	color: #54291F;
+	font:16px/30px "微软雅黑";
+}
+.cont h4{
+	padding:0 20px;
+	height: 28px;width:936px;
+	margin:0;
+	color: #666;
+	font:12px/28px "微软雅黑";
+	border-bottom: 1px solid #EEE1D6;
+}
+.cont h4 span{
+	float:left;
+	margin-right:4px;
+	width:200px;
+}
+.cont h4 em{
+	float:left;
+	width:140px;
+	font-style:normal;
+	margin-right:4px;
+}
+.cont h4 i{
+	float:right;
+	width:36px;
+	font-style:normal;
+}
+.cont ul{
+	padding:0 20px;
+	width:936px;
+	border-bottom: 1px solid #EEE1D6;
+}
+.cont ul li{
+	height:90px;
+	font:12px/90px "微软雅黑";
+	color: #666;
+}
+
+.cont ul li span{
+	float:left;
+	margin-right:4px;
+	width:200px;
+}
+.cont ul li span img{
+	float:left;
+	width:22px;height:22px;
+	margin-top:34px;
+}
+.cont ul li span input{
+	float:left;
+	width:50px;
+	height:20px;
+	border: 1px solid #EEE1D6;
+	margin-top:34px;
+	text-align:center;
+}
+.cont ul li span a{
+	width:100%;
+}
+.cont ul li span a img{
+	float:left;
+	width:80px;height:80px;
+	margin-top:5px;
+}
+.cont ul li em{
+	float:left;
+	width:140px;
+	font-style:normal;
+	margin-right:4px;
+}
+.cont ul li a{
+	float:right;
+	width:36px;
+	color:#512a1d;
+}
+.cont p{
+	color: #666;
+	font:12px/28px "微软雅黑";
+	padding:0 10px;
+	/*box-sizing: border-box;*/
+	width: 960px;height: 28px;
+}
+.cont p a{
+	float:right;
+	color: #CAA993;
+	font:12px/28px "微软雅黑";
+}
+.cont p em{
+	color: rgb(249, 157, 28);
+	font-style: normal;
+	font-weight: 800;
+	font:16px/28px "微软雅黑";
+} 
+.checkout{
+	float:right;padding:5px;
+}
+.continue{float:left;padding:5px;}

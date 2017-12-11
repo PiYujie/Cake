@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="head">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/front_logo.png" /></a>
+					<p>
+						<input type="text" placeholder="请输入关键字" id="search"/><button></button>
+					</p>
+					<ul id="message">
+						<!--<li>a</li>-->
+					</ul>
+					<div class="make">
+						<p><img src='../img/login.gif' id="login"/><img src='../img/reg.gif'id="reg"/></p>
+						<p><a href="buyCar.html">我的购物车（<em id="num">0</em>）</a></p>
+						<p><img src="../img/ico_phone.gif"/></p>
+					</div>
+				</div>
+				<ul>
+					<li class="sub_onclick"><a href="../index.html">首页</a></li>
+					<li><a href="AllCakes.html">产品中心</a>
+						<ol>
+							<li><a href="AllCakes.html">生日蛋糕</a></li>
+							<li><a href="#">券卡区</a></li>
+							<li><a href="#">其他</a></li>
+						</ol>
+					</li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">关于供美香</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">券卡区</a></li>
+					<li><a href="Login.html">用户中心</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="content" id="regi">
+			<h3><span>注册</span>立即注册，加入会员，享受多重惊喜。</h3>
+			<form>
+				<p><span>用户名:</span><input type="text" /><strong>*</strong><em>用户名长度不能少于 3 个字符。</em><i>该用户名已注册</i><b>可以注册</b></p>
+				<p><span>email:</span><input type="text" /><strong>*</strong><em>邮件地址不能为空</em><i>邮件地址不合法</i><b>可以注册</b></p>
+				<p><span>密码:</span><input type="text" /><strong>*</strong><em> 登录密码不能少于 6 个字符。</em><b>可以注册</b></p>
+				<p><span>确认密码:</span><input type="text" /><strong>*</strong><em> 登录密码不能少于 6 个字符。</em><i>两次输入密码不一致</i><b>可以注册</b></p>
+				<p><span>手机：</span><input type="text" /><strong>*</strong><em>用户名长度不能少于 11 个字符。</em><i>手机号码格式不合法</i><b>可以注册</b></p>
+				<p><span>密码提示问题:</span>
+					<select name="sel_question" >
+						<option>请选择密码提示问题</option>
+						<option>我最好朋友的生日？</option>
+						<option>我儿时居住地的地址？</option>
+						<option>我的座右铭是？</option>
+						<option>我最喜爱的电影？</option>
+						<option>我最喜爱的歌曲？</option>
+						<option>我最喜爱的食物？</option>
+						<option>我最大的爱好？</option>
+						<option>我最喜欢的小说？</option>
+						<option>我最喜欢的运动队？</option>	  
+					</select>
+				</p>
+				<p><span>密码问题答案:</span><input type="text" /><strong>*</strong><em>用户名长度不能少于 3 个字符。</em><i>可以注册</i><b>该用户名已注册</b></p>
+				<p>
+					<input type="checkbox" id="agree"/><lable for="agree">我已看过并接受《用户协议》</lable>
+				</p>
+				<button disabled="true">注册</button>
+				<a href="#">密码问题找回密码</a>
+				<a href="#">注册邮件找回密码</a>
+			</form>
+		</div>
+		<div class="footer">
+			<div class="foot">
+				<p>客服邮箱：2325730750@qq.com<a href="#">联系我们 | 订购帮助</a></p>
+				<p>COPYRIGHT 2012 苏ICP备06007537号-2 京公网安备11011202001547</p>
+			</div>
+		</div>
+		<div class="chat" id="chat">
+			<img src="../img/zxkf_title.gif" />
+			<img src="../img/zxkf_qq.gif" />
+		</div>
+	</body>
+</html>
+<script src="../js/pool.js"></script>
+<script src="../js/regis.js"></script>

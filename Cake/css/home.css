@@ -1,0 +1,62 @@
+/*首页*/
+/*蛋糕推荐*/
+.content{
+	width:980px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.content div{
+	float: left;
+	width: 320px;height: 220px;
+	padding-right: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.content div img{cursor:pointer;}
+.content .big{
+	width: 320px;height: 220px;
+	cursor:pointer;
+}
+.content div p{
+	display: none;
+	position: absolute;
+	bottom: 0;left: 0;
+	height: 40px;
+	width: 100%;
+	background: #CAA993;
+}
+.content div:hover p{
+	display: block;
+}
+.content div p input{
+	float: left;
+    height: 36px;
+    width: 60px;
+    text-align: center;
+    font:16px/36px "微软雅黑";
+    color: #CAA993;
+    margin: 1px;
+    border: 1px solid #CAA993;
+}
+.content div p img{
+	float: left;
+	cursor: pointer;
+}
+#add{
+	float: right;
+	cursor: pointer;
+}
+/*促销*/
+.mess{
+	width: 980px;height: 200px;
+	margin: 10px auto;
+	padding: 20px 0;
+}
+.mess img{
+	float: left;
+	width: 458px;
+	/*margin-right: 30px;*/
+}
+.mess img:last-of-type{
+	float: right;
+}

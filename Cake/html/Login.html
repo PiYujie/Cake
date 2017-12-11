@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="head">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/front_logo.png" /></a>
+					<p>
+						<input type="text" placeholder="请输入关键字" id="search"/><button></button>
+					</p>
+					<ul id="message">
+						<!--<li>a</li>-->
+					</ul>
+					<div class="make">
+						<p><img src='../img/login.gif' id="login"/><img src='../img/reg.gif'id="reg"/></p>
+						<p><a href="buyCar.html">我的购物车（<em id="num">0</em>）</a></p>
+						<p><img src="../img/ico_phone.gif"/></p>
+					</div>
+				</div>
+				<ul>
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="AllCakes.html">产品中心</a>
+						<ol>
+							<li><a href="AllCakes.html">生日蛋糕</a></li>
+							<li><a href="#">券卡区</a></li>
+							<li><a href="#">其他</a></li>
+						</ol>
+					</li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">关于供美香</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">券卡区</a></li>
+					<li class="sub_onclick"><a href="#">用户中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="cont">
+			<div class="login">
+				<form class="left" method="post" action="../login.php" id="getMess">
+					<img src="../img/user_tit1.jpeg" />
+					<p>
+						<span>用户名：</span><input type="text" name="userName"/>
+					</p>
+					<p>
+						<span>密码：</span><input type="password" name="passWord"/>
+					</p>
+					<p>
+						<input type="checkbox" id="remember" /><label for="remember">请保存我这次的登录信息。</label>
+					</p>
+					<input type="submit" value="登录" disabled=true;/>
+					<!--<button>登录</button>-->
+					<h3><a href="##">密码问题找回密码</a><a href="##">注册邮件找回密码</a></h3>	
+				</form>
+				<div class="right">
+					<strong>新用户？</strong>
+					<p>立即注册,加入会员，享受多重惊喜！</p>
+					<b>友情提示：</b>
+					<p>不注册为会员不可以在本店购买商品</p>
+					<p>注册之后您可以：</p>
+					<p>1. 保存您的个人资料</p>
+					<p>2. 收藏您关注的商品</p>
+					<p>3. 享受会员积分制度</p>
+					<p>4. 订阅本店商品信息</p>
+					<button id="regist">注册</button>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="foot">
+				<p>客服邮箱：2325730750@qq.com<a href="#">联系我们 | 订购帮助</a></p>
+				<p>COPYRIGHT 2012 苏ICP备06007537号-2 京公网安备11011202001547</p>
+			</div>
+		</div>
+		<div class="chat" id="chat">
+			<img src="../img/zxkf_title.gif" />
+			<img src="../img/zxkf_qq.gif" />
+		</div>
+	</body>
+</html>
+<script src="../js/pool.js"></script>
+<script src="../js/login.js"></script>

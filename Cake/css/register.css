@@ -1,0 +1,70 @@
+/*注册页面*/
+body{
+	background: #fff5ea;
+}
+.content{
+	width:860px;
+	margin:30px auto 50px;
+	min-height:500px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	color: #000;
+	padding:40px 0 0 120px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.content h3{
+	font-weight:normal;
+	font:12px/35px "微软雅黑";
+}
+.content h3 span{
+	font:24px/35px "微软雅黑";
+	color:#ff9d11;
+	margin-right:10px;
+}
+
+.content p span{
+	float:left;
+	width:80px;
+	padding:5px;
+	text-align:left;
+}
+.content p input{
+	float:left;
+	width:178px;height:18px;
+	border:1px solid #E4D4CA;
+	margin:5px;
+}
+.content p select{
+	float:left;
+	width:180px;height:20px;
+	/*border:1px solid #E4D4CA;*/
+	margin:5px;
+}
+.content button{
+	width:140px;height:40px;
+	background: #ffa409;
+    font: 600 16px/40px "微软雅黑";
+    color: #fff;
+    cursor:pointer;
+    margin:10px 100px;
+}
+.content p{
+	height:30px;
+}
+.content b,.content strong{font-weight:normal;color: #FF0000;float:left;font:12px/30px "微软雅黑";display:none;}
+.content em,.content i{font-style:normal;color: #FF0000;float:left;font:12px/30px "微软雅黑";display:none;}
+.content p input[type="checkbox"]{
+	width:14px;height:14px;
+	margin:8px;
+	margin-left:100px;
+}
+.content p lable{
+	font:12px/30px "微软雅黑";
+}
+.content a{
+	display:block;
+	margin-left:122px;
+	font:12px/30px "微软雅黑";
+	color:#000;
+}

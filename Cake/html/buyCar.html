@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/car.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="head">
+				<div class="logo">
+					<a href="../index.html"><img src="../img/front_logo.png" /></a>
+					<p>
+						<input type="text" placeholder="请输入关键字" id="search"/><button></button>
+					</p>
+					<ul id="message">
+						<!--<li>a</li>-->
+					</ul>
+					<div class="make">
+						<p><img src='../img/login.gif' id="login"/><img src='../img/reg.gif'id="reg"/></p>
+						<p><a href="##">我的购物车（<em id="num">0</em>）</a></p>
+						<p><img src="../img/ico_phone.gif"/></p>
+					</div>
+				</div>
+				<ul>
+					<li class="sub_onclick"><a href="../index.html">首页</a></li>
+					<li><a href="AllCakes.html">产品中心</a>
+						<ol>
+							<li><a href="AllCakes.html">生日蛋糕</a></li>
+							<li><a href="#">券卡区</a></li>
+							<li><a href="#">其他</a></li>
+						</ol>
+					</li>
+					<li><a href="#">活动专区</a></li>
+					<li><a href="#">关于供美香</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">券卡区</a></li>
+					<li><a href="Login.html">用户中心</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="buy_content">
+			<img src = "../img/cart_title_1.jpg" />
+			<div class="cont">
+				<!--购物车顶部-->
+				<h3>商品列表</h3>
+				<h4><span>商品名称</span><span>属性</span><em>本店价</em><span>购买数量</span><em>小计</em><i>操作</i></h4>
+				
+				<ul id="list">
+					<!--<li>
+						<span><a href="Detail.html"><img src = "../img/small001.jpg"/>健康长寿双层蛋糕</a></span>
+						<span>尺寸:8吋[218]</span>
+						<em>￥498.00元</em>
+						<span>
+							<img src="../img/good_jian.png"/>
+							<input type="text" value="1"/>
+							<img src="../img/good_plus.png"/>
+						</span>
+						<em>￥498.00元</em>
+						<a href="#">删除</a>
+					</li>-->
+				</ul>
+				
+				
+				<p>购物金额小计：￥<em id="money"></em> 元<a href="#">清空购物车</a></p>
+			</div>
+			<p>
+				<a href="AllCakes.html" class="continue"><img src="../img/continue.jpg"/></a>
+				<a href="../index.html" class="checkout"><img src="../img/checkout.jpg"/></a>
+			</p>
+			
+		</div>
+		
+		<div class="footer">
+			<div class="foot">
+				<p>客服邮箱：2325730750@qq.com<a href="#">联系我们 | 订购帮助</a></p>
+				<p>COPYRIGHT 2012 苏ICP备06007537号-2 京公网安备11011202001547</p>
+			</div>
+		</div>
+		<div class="chat" id="chat">
+			<img src="../img/zxkf_title.gif" />
+			<img src="../img/zxkf_qq.gif" />
+		</div>
+	</body>
+</html>
+<script src="../js/pool.js"></script>
+<script src="../js/car.js"></script>
