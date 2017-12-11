@@ -170,7 +170,6 @@ function Search(){
 	//实时获取输入框内容
 	var sval = search.value;
 	var mess = document.getElementById('message');
-//	var sId = [];
 	var links = '';
 	var sstr = '';
 	//获取json数据
@@ -180,8 +179,6 @@ function Search(){
 				var searId = arr[i].id;
 				links += searId+';';
 				sstr += '<li data-id="'+searId+'">'+arr[i].name+'</li>';
-//				sId.unshift(searId)
-				console.log(links,sstr);
 			}
 			mess.innerHTML = sstr;
 		}
@@ -190,10 +187,11 @@ function Search(){
 			li[j].index = j;
 			li[j].onclick = function(){
 				var iId = li[this.index].getAttribute('data-id');
-				location.href = 'html/Detail.html?'+iId;
+				location.href = 'Detail.html?'+iId;
 			}
 		}
-		console.log(li)
-		
+		sousuo.onclick = function(){
+			location.href = 'Search.html?'+links;
+		}
 	});
 }

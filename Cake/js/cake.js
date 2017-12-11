@@ -176,8 +176,6 @@ search.oninput = function(){
 				var searId = arr[i].id;
 				links += searId+';';
 				sstr += '<li data-id="'+searId+'">'+arr[i].name+'</li>';
-//				sId.unshift(searId)
-				console.log(links,sstr);
 			}
 			mess.innerHTML = sstr;
 		}
@@ -189,7 +187,9 @@ search.oninput = function(){
 				location.href = 'html/Detail.html?'+iId;
 			}
 		}
-		console.log(li)
-		
+		sousuo.onclick = function(){
+			location.href = 'html/Search.html?'+links;
+		}
 	});
+	
 }

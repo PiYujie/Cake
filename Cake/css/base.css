@@ -58,6 +58,7 @@ a{text-decoration:none;}
 	width: 380px;
 	left: 274px;
 	background: #fff;
+	z-index: 999;
 }
 .head .logo li{
 	height:26px;width: 365px;
@@ -102,7 +103,6 @@ a{text-decoration:none;}
 .head ul{
 	width:100%;
 	height:60px;
-	/*position:relative;*/
 }
 .head ul li{
 	float:left;
@@ -158,6 +158,7 @@ a{text-decoration:none;}
 .banner div{
 	height:300px;
 	position:absolute;
+	z-index: 1;
 }
 .banner img{
 	height:300px;

@@ -15,7 +15,8 @@
 	margin-right:25px;
 }
 .content li img{
-	width:100%;
+	width:300px;
+	height:300px;
 }
 .content li h3{
 	width:100%;
@@ -32,14 +33,16 @@
 	font:14px/30px "微软雅黑";
 }
 .content li p img{
-	width:19px;
+	width:19px;height:19px;
 	display:inline-block;
 	margin-right:5px;
 }
 .btnList{
-	position: absolute;
-	bottom: 10px;
-	left: 300px;
+	/*position: absolute;*/
+	/*bottom: 10px;*/
+	/*left: 300px;*/
+	height: 40px;
+	margin: 30px auto;
 }
 .btnList a { 
 	display: inline-block; 
