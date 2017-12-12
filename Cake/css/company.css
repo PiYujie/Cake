@@ -1,0 +1,34 @@
+.content{
+	width:100%;
+	background: url(../img/company-plate-bg-3.jpg)no-repeat center center;
+}
+.cont{
+	width: 980px;
+	margin: 0 auto;
+}
+.cont h4{
+	margin: 0;
+	padding-top: 100px;
+	font: bolder 24px/28px "微软雅黑" ;
+}
+.cont h3{
+	margin: 0;
+	padding-top: 30px;
+	font: 500 38px/42px "微软雅黑" ;
+}
+.cont p{
+	padding-top: 20px;
+	font:22px/26px "微软雅黑" ;
+	color: rgb(51,51,51);
+}
+.cont span{
+	display: block;
+	width: 105px;
+	height: 70px;
+	border-bottom: 2px solid rgb(178,178,178);
+}
+.cont em{
+	display: block;
+	font:16px/42px "微软雅黑" ;
+	padding-bottom: 50px;
+}

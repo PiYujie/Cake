@@ -2,12 +2,19 @@ var list = document.getElementById('list');
 //获取应该显示的数据id
 var url = location.href;
 var ids = url.split('?')[1];
+var val = ids.split(":")[1];
+ids = ids.split(":")[0];
 ids = ids.split(";");
+console.log(val)
 for(var i in ids){
 	if(ids[i].length==0){
 		ids.pop()
 	}
 }
+//
+var title = document.querySelector('.title');
+//title.style.utf
+title.innerHTML = '筛选：'+val;
 //动态添加数据
 	ajax("post","../dataCake.json",'',function(arr){
 		//获取数据长度

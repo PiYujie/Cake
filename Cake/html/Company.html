@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>登录页面</title>
-		<link rel="stylesheet" href="../css/base.css" />
-		<link rel="stylesheet" href="../css/login.css" />
+		<title>企业订购</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/company.css"/>
 	</head>
 	<body>
 		<div class="header">
@@ -34,42 +34,20 @@
 					</li>
 					<li><a href="Activity.html">活动专区</a></li>
 					<li><a href="Aboutus.html">关于供美香</a></li>
-					<li><a href="Company.html">企业采购</a></li>
+					<li class="sub_onclick"><a href="#">企业采购</a></li>
 					<li><a href="Coupon.html">券卡区</a></li>
-					<li class="sub_onclick"><a href="#">用户中心</a></li>
+					<li><a href="Login.html">用户中心</a></li>
 				</ul>
 			</div>
 		</div>
 		
-		<div class="cont">
-			<div class="login">
-				<form class="left" method="post" action="../login.php" id="getMess">
-					<img src="../img/user_tit1.jpeg" />
-					<p>
-						<span>用户名：</span><input type="text" name="userName"/>
-					</p>
-					<p>
-						<span>密码：</span><input type="password" name="passWord"/>
-					</p>
-					<p>
-						<input type="checkbox" id="remember" /><label for="remember">请保存我这次的登录信息。</label>
-					</p>
-					<input type="submit" value="登录" disabled=true;/>
-					<!--<button>登录</button>-->
-					<h3><a href="##">密码问题找回密码</a><a href="##">注册邮件找回密码</a></h3>	
-				</form>
-				<div class="right">
-					<strong>新用户？</strong>
-					<p>立即注册,加入会员，享受多重惊喜！</p>
-					<b>友情提示：</b>
-					<p>不注册为会员不可以在本店购买商品</p>
-					<p>注册之后您可以：</p>
-					<p>1. 保存您的个人资料</p>
-					<p>2. 收藏您关注的商品</p>
-					<p>3. 享受会员积分制度</p>
-					<p>4. 订阅本店商品信息</p>
-					<button id="regist">注册</button>
-				</div>
+		<div class="content">
+			<div class="cont">
+				<h4>商务定制</h4>
+				<h3>商务定制用新意，沟通有心意</h3>
+				<p>供美香根据企业差异化需求，提供专属您的商务定制</p>
+				<span></span>
+				<em>专属礼盒 / 蛋糕 / 配件 /活动等多项定制</em>
 			</div>
 		</div>
 		
@@ -85,5 +63,5 @@
 		</div>
 	</body>
 </html>
-<script src="../js/pool.js"></script>
-<script src="../js/login.js"></script>
+<script type="text/javascript" src="../js/pool.js"></script>
+<script src="../js/tit.js"></script>

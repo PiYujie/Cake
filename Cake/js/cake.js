@@ -174,7 +174,7 @@ search.oninput = function(){
 		for(var i in arr){
 			if(arr[i].name.indexOf(sval)!=-1&&sval.length!=0){
 				var searId = arr[i].id;
-				links += searId+';';
+				links += searId +';';
 				sstr += '<li data-id="'+searId+'">'+arr[i].name+'</li>';
 			}
 			mess.innerHTML = sstr;
@@ -188,7 +188,8 @@ search.oninput = function(){
 			}
 		}
 		sousuo.onclick = function(){
-			location.href = 'html/Search.html?'+links;
+//			console.log(sval,links)
+			location.href = 'html/Search.html?'+links+":"+sval;
 		}
 	});
 	

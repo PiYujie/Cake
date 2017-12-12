@@ -177,7 +177,7 @@ function Search(){
 		for(var i in arr){
 			if(arr[i].name.indexOf(sval)!=-1&&sval.length!=0){
 				var searId = arr[i].id;
-				links += searId+';';
+				links += searId +':'+';';
 				sstr += '<li data-id="'+searId+'">'+arr[i].name+'</li>';
 			}
 			mess.innerHTML = sstr;
